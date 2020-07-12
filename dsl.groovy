@@ -49,7 +49,7 @@ job("Job3_t6")
     }
 	 steps {
         shell('''
-export status=$(curl -s -i -w "%{http_code}" -o /dev/null/ http://192.168.99.102:31000)
+export status=$(curl -s -i -w "%{http_code}" -o /dev/null/ http://192.168.99.102:32004)
 if echo $status==200
 then
   exit 1
