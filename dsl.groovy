@@ -87,3 +87,12 @@ job("Job4_t6")
 	  }
 }
 
+buildPipelineView('Task-6 view') {
+    filterBuildQueue()
+    filterExecutors()
+    title('Groovy Pipeline')
+    displayedBuilds(1)
+    selectedJob('Job1_t6')
+    refreshFrequency(3)
+}
+
