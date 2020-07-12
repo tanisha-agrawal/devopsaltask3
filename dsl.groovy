@@ -1,7 +1,7 @@
 job("Job1_t6"){
   description("Pulling code")
 	scm {
-		github('tanisha-agrawal/devopsaltask6','master')
+		github('tanisha-agrawal/devopsaltask3','master')
 	}
      		
 	triggers {
